@@ -32,7 +32,7 @@ print("List of directories for file:", path)
 print(os.listdir(path))
 print("-----------------")
 ##changes permissions for group in path
-os.chmod('/Users/jennifersilva/hello.c', stat.S_IRGRP)
+os.chmod('/Users/name/afile', stat.S_IRGRP)
 print('Permissions changed:\'/Users/name/hotdog.txt\' can be read by group')
 path = "/Users/name/project"
 print("-----------------")
